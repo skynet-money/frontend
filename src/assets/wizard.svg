@@ -1,0 +1,39 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with subtle pattern -->
+  <rect width="64" height="64" fill="#2C3E50"/>
+  <path d="M0 0h8v8h-8zm16 0h8v8h-8zm16 0h8v8h-8zm16 0h8v8h-8z" fill="#233140" fill-opacity="0.4"/>
+  
+  <!-- Robot Body -->
+  <rect x="16" y="24" width="32" height="28" fill="#FFFFFF"/>
+  <rect x="16" y="44" width="32" height="8" fill="#E0E0E0"/>
+  
+  <!-- Head -->
+  <rect x="20" y="12" width="24" height="12" fill="#E0E0E0"/>
+  <rect x="18" y="14" width="28" height="8" fill="#D0D0D0"/>
+  
+  <!-- Money-sign visor -->
+  <rect x="20" y="16" width="24" height="4" fill="#85bb65"/>
+  <text x="22" y="19.5" font-family="monospace" font-size="3.5" fill="#000">$ $ $ $</text>
+  
+  <!-- Suit details -->
+  <path d="M30 24 L34 24 L32 48 L30 48 Z" fill="#000066"/> <!-- Tie -->
+  <rect x="16" y="24" width="32" height="2" fill="#000033"/> <!-- Collar -->
+  <rect x="16" y="34" width="32" height="1" fill="#000033"/> <!-- Belt -->
+  
+  <!-- Pocket squares -->
+  <rect x="18" y="26" width="4" height="2" fill="#CCCCCC"/>
+  <rect x="42" y="26" width="4" height="2" fill="#CCCCCC"/>
+  
+  <!-- Trading screen -->
+  <rect x="24" y="38" width="16" height="8" fill="#000000"/>
+  <polyline points="26,42 28,40 30,44 32,41 34,43 36,39" 
+          stroke="#00FF00" fill="none" stroke-width="0.5"/>
+  
+  <!-- Side panels -->
+  <rect x="12" y="28" width="4" height="16" fill="#666666"/>
+  <rect x="48" y="28" width="4" height="16" fill="#666666"/>
+  
+  <!-- Antenna with stock ticker -->
+  <rect x="30" y="8" width="4" height="4" fill="#FFD700"/>
+  <text x="28" y="6" font-family="monospace" font-size="2" fill="#FFD700">BTC ETH</text>
+</svg>

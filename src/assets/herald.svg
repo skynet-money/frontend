@@ -1,0 +1,42 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with broadcast waves pattern -->
+  <rect width="64" height="64" fill="#1DA1F2"/>
+  <path d="M32 32 Q48 32 48 16" stroke="#0F91E2" fill="none" stroke-width="0.5"/>
+  <path d="M32 32 Q16 32 16 16" stroke="#0F91E2" fill="none" stroke-width="0.5"/>
+  <path d="M32 32 Q48 32 48 48" stroke="#0F91E2" fill="none" stroke-width="0.5"/>
+  <path d="M32 32 Q16 32 16 48" stroke="#0F91E2" fill="none" stroke-width="0.5"/>
+  
+  <!-- Robot Body -->
+  <rect x="16" y="24" width="32" height="28" fill="#FFFFFF"/>
+  <rect x="16" y="44" width="32" height="8" fill="#E0E0E0"/>
+  
+  <!-- Head -->
+  <rect x="20" y="12" width="24" height="12" fill="#E0E0E0"/>
+  
+  <!-- Broadcast Equipment -->
+  <path d="M32 4 L36 8 L28 8 Z" fill="#FFD700"/> <!-- Main Antenna -->
+  <rect x="31" y="8" width="2" height="4" fill="#FFD700"/>
+  <circle cx="32" cy="4" r="1" fill="#FF0000"/> <!-- Broadcast Light -->
+  
+  <!-- Side Antennas -->
+  <path d="M16 20 L20 16 L20 20" fill="none" stroke="#FFD700" stroke-width="1"/>
+  <path d="M48 20 L44 16 L44 20" fill="none" stroke="#FFD700" stroke-width="1"/>
+  
+  <!-- Speaker Mouth -->
+  <path d="M28 20 L36 20 L38 22 L26 22 Z" fill="#333"/>
+  <rect x="29" y="21" width="6" height="0.5" fill="#666"/>
+  
+  <!-- Social Media Icons -->
+  <rect x="20" y="28" width="6" height="6" fill="#1DA1F2"/> <!-- Twitter -->
+  <rect x="29" y="28" width="6" height="6" fill="#FF4500"/> <!-- Reddit -->
+  <rect x="38" y="28" width="6" height="6" fill="#0077B5"/> <!-- LinkedIn -->
+  
+  <!-- Display Screen -->
+  <rect x="20" y="36" width="24" height="8" fill="#000000"/>
+  <text x="22" y="41" font-family="monospace" font-size="3" fill="#00FF00">LIVE</text>
+  
+  <!-- Signal Indicators -->
+  <circle cx="48" cy="38" r="1" fill="#00FF00"/>
+  <circle cx="48" cy="41" r="1" fill="#00FF00"/>
+  <circle cx="48" cy="44" r="1" fill="#00FF00"/>
+</svg>

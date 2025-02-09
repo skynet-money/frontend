@@ -1,26 +1,31 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HomeView />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HomeView from './components/HomeView.vue';
+
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    HomeView,
+  },
+  async mounted() {
+    
+  },
+};
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+html,
+body,
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #000024;
+  font-family: "DotGothic16";
+  font-weight: 400;
+  font-style: normal;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
